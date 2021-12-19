@@ -1,0 +1,67 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "699ff488d213a7eb6a247a51d711b42288a783a885d8b0b3beb2e9f90bde3f49"
+    },
+    {
+      "guid" : "699ff488d213a7eb6a247a51d711b4227a4df83bc68a8bed6961be7254c2cd11"
+    },
+    {
+      "guid" : "699ff488d213a7eb6a247a51d711b4225c9b8045c63904c77ec2f93f663ac13d"
+    },
+    {
+      "guid" : "699ff488d213a7eb6a247a51d711b4225b2859936ca241eb8f1c6ecfb949e0f6"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64e",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos14.5",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "armv4t",
+        "armv5",
+        "armv6",
+        "armv7",
+        "armv7f",
+        "armv7s",
+        "armv7k",
+        "arm64",
+        "arm64e"
+      ],
+      "targetArchitecture" : "arm64e"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/albatros/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/albatros/Library/Developer/Xcode/DerivedData/Runner-dbtriqdauundvvdcdvovkqbjpuwo/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/albatros/Library/Developer/Xcode/DerivedData/Runner-dbtriqdauundvvdcdvovkqbjpuwo/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

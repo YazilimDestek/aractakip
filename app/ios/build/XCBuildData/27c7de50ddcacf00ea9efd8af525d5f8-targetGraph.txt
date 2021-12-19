@@ -1,0 +1,7 @@
+Target dependency graph (4 targets)
+Runner in Runner
+cinigaz in Runner
+cinigazTests in Runner, depends on:
+cinigaz in Runner (explicit)
+cinigazUITests in Runner, depends on:
+cinigaz in Runner (explicit)
